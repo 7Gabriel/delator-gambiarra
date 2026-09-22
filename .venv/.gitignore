@@ -1,0 +1,38 @@
+# === Segredos (NUNCA commitar) ===
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# === Ambiente virtual ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+desktop.ini
